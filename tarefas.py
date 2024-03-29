@@ -16,8 +16,8 @@ resultado_da_multiplicacao = multiplicar_numeros(5, 5)
 
 #Funcao para imprimir o resultado das funções de soma e multiplicação
 
-def exibir_soma_resultados(resultado):
+def exibir_resultados(resultado):
     print(f' {resultado}')
 
-exibir_soma_resultados(f'soma {resultado_da_soma}')
-exibir_soma_resultados(f'multiplicao {resultado_da_multiplicacao}')
+exibir_resultados(f'soma {resultado_da_soma}')
+exibir_resultados(f'multiplicao {resultado_da_multiplicacao}')
