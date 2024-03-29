@@ -19,5 +19,5 @@ resultado_da_multiplicacao = multiplicar_numeros(5, 5)
 def exibir_soma_resultados(resultado):
     print(f' {resultado}')
 
-exibir_soma_resultados(resultado_da_soma)
-exibir_soma_resultados(resultado_da_multiplicacao)
+exibir_soma_resultados(f'soma {resultado_da_soma}')
+exibir_soma_resultados(f'multiplicao {resultado_da_multiplicacao}')
